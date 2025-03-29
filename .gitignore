@@ -1,0 +1,48 @@
+# Dependency directories
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+.tscache/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE and editor folders
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.sublime-project
+*.sublime-workspace
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache directories
+.npm/
+.eslintcache
+.stylelintcache
+.cache/
+
+# Coverage directory
+coverage/
+
+# Temporary folders
+tmp/
+temp/ 

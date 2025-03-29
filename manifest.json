@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Muted",
+  "version": "1.0.0",
+  "description": "Control audio across browser tabs - mute current tab, all tabs, or auto-mute new tabs",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/png/icon-active-16.png",
+      "32": "icons/png/icon-active-32.png",
+      "48": "icons/png/icon-active-48.png",
+      "64": "icons/png/icon-active-64.png",
+      "96": "icons/png/icon-active-96.png",
+      "128": "icons/png/icon-active-128.png",
+      "192": "icons/png/icon-active-192.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/png/icon-active-16.png",
+    "32": "icons/png/icon-active-32.png",
+    "48": "icons/png/icon-active-48.png",
+    "64": "icons/png/icon-active-64.png",
+    "96": "icons/png/icon-active-96.png",
+    "128": "icons/png/icon-active-128.png",
+    "192": "icons/png/icon-active-192.png"
+  }
+} 
